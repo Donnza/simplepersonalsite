@@ -1,0 +1,32 @@
+Notes:
+Creating a Simple Personal Website Using HTML and CSS
+https://www.youtube.com/watch?v=4XmhtbcMWEY
+
+Project Setup:
+
+create dist folder
+create index.html file in dist folder
+    type ! and enter tab to autocomplete HTML file
+create scss folder
+create main.scss file
+
+node-sass
+    npm init
+    npm i node-sass
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+    npm run sass
+
+Incl compiled version (main.css not main.scss) in the index.html file
+        <link rel="stylesheet" href="css/main.css">
+
+git
+    open new terminal (+) and keep the npm terminal open
+    create a file called .gitignore 
+    windows powershell use "ni .gitignore"
+    add "node-modules" to .gitignore file
+
+    init git repository
+        git init
+        git add .
+        git commit -m 'Initial workflow setup'
+
